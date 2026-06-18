@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.pricing-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.plan{
+
+    background:white;
+
+    width:250px;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 10px lightgray;
+}
+
+.plan h2{
+    margin-bottom:10px;
+}
+
+.plan h3{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+.plan p{
+    margin-bottom:10px;
+}
+
+button{
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:#0077cc;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background:#005fa3;
+}
